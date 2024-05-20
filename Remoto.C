@@ -1,5 +1,5 @@
-// Github_controllo_remoto_C
 #!/bin/bash
+# Github_controllo_remoto_C
 
 URL="URL_DEL_FILE"  #devo inserire l'URL
 FILENAME="comandi.txt"  #devo inserire il file
