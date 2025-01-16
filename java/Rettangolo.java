@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Rettangolo {
     private int larghezza;
     private int altezza;
@@ -40,17 +38,15 @@ public class Rettangolo {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Rettangolo rettangolo = new Rettangolo();
 
-        System.out.print("Inserisci la larghezza del rettangolo: ");
-        rettangolo.setLarghezza(scanner.nextInt());
+        rettangolo.setLarghezza(8);
+        rettangolo.setAltezza(10);
 
-        System.out.print("Inserisci l'altezza del rettangolo: ");
-        rettangolo.setAltezza(scanner.nextInt());
-
+        System.out.println("Larghezza del rettangolo: " + rettangolo.getLarghezza());
+        System.out.println("Altezza del rettangolo: " + rettangolo.getAltezza());
         System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
-        scanner.close();
     }
 }
+
 
